@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOLO 运动平台 - 记录你的每一次突破</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">YOLO</div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#sports">项目</a></li>
+                <li><a href="#features">特色</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <section class="hero" id="home">
+        <h1>YOLO 运动平台</h1>
+        <p class="subtitle">记录你的每一次突破，挑战极限</p>
+        <p class="tagline">Run · Swim · Climb</p>
+    </section>
+
+    <!-- 主要内容 -->
+    <div class="container">
+        <!-- 体育项目 -->
+        <section id="sports">
+            <h2 class="section-title animate">核心项目</h2>
+            <div class="sports-grid">
+                <!-- 跑步 -->
+                <div class="sport-card running animate">
+                    <div class="sport-image">🏃</div>
+                    <div class="sport-content">
+                        <h3>跑步训练</h3>
+                        <p>系统化跑步课程，从5K到全马，专业配速指导，让你的每一步都充满力量。</p>
+                        <div class="sport-tags">
+                            <span class="tag">配速训练</span>
+                            <span class="tag">马拉松</span>
+                            <span class="tag">耐力提升</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 游泳 -->
+                <div class="sport-card swimming animate">
+                    <div class="sport-image">🏊</div>
+                    <div class="sport-content">
+                        <h3>游泳教学</h3>
+                        <p>掌握四种泳姿技巧，提升水中效率，突破个人最佳成绩。</p>
+                        <div class="sport-tags">
+                            <span class="tag">自由泳</span>
+                            <span class="tag">蝶泳</span>
+                            <span class="tag">转身技巧</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 攀登 -->
+                <div class="sport-card climbing animate">
+                    <div class="sport-image">🧗</div>
+                    <div class="sport-content">
+                        <h3>攀登技巧</h3>
+                        <p>室内外攀岩课程，学习顶绳保护、先锋攀登，挑战更高难度路线。</p>
+                        <div class="sport-tags">
+                            <span class="tag">抱石</span>
+                            <span class="tag">绳索技术</span>
+                            <span class="tag">路线读解</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 特色介绍 -->
+        <section class="features" id="features">
+            <h2 class="section-title">为什么选择 YOLO</h2>
+            <div class="features-grid">
+                <div class="feature-item animate">
+                    <div class="feature-icon">🎯</div>
+                    <h4>数据驱动</h4>
+                    <p>精准记录每一次训练，用数据见证你的进步</p>
+                </div>
+                <div class="feature-item animate">
+                    <div class="feature-icon">🏆</div>
+                    <h4>专业指导</h4>
+                    <p>认证教练团队，为你提供科学的训练建议</p>
+                </div>
+                <div class="feature-item animate">
+                    <div class="feature-icon">📈</div>
+                    <h4>进度追踪</h4>
+                    <p>可视化图表展示，清晰了解训练成果</p>
+                </div>
+                <div class="feature-item animate">
+                    <div class="feature-icon">🤝</div>
+                    <h4>运动社区</h4>
+                    <p>与志同道合的伙伴一起挑战自我极限</p>
+                </div>
+                <div class="feature-item animate">
+                    <div class="feature-icon">⚡</div>
+                    <h4>科学体系</h4>
+                    <p>基于运动科学的训练方法，安全高效</p>
+                </div>
+                <div class="feature-item animate">
+                    <div class="feature-icon">🎯</div>
+                    <h4>目标达成</h4>
+                    <p>设定目标，持续激励，实现个人突破</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA 区域 -->
+        <section class="cta" id="contact">
+            <h2>加入 YOLO，开始你的运动之旅</h2>
+            <p>每一次训练都是对自己的挑战，每一次突破都是新的起点</p>
+            <button class="cta-button" id="registerBtn">立即加入</button>
+        </section>
+    </div>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#">关于我们</a>
+                <a href="#">训练课程</a>
+                <a href="#">教练团队</a>
+                <a href="#">联系我们</a>
+                <a href="#">隐私政策</a>
+            </div>
+            <p class="copyright">&copy; 2026 YOLO 运动平台. All rights reserved. You Only Live Once.</p>
+        </div>
+    </footer>
+
+    <!-- 弹窗 -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-icon">🏃</div>
+            <h3>准备开始你的挑战</h3>
+            <p>注册功能即将上线，关注我们获取最新动态！</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
